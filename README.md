@@ -11,6 +11,7 @@ temperature- or pressure-dependent viscosity (using the FK or Arrhenius approxim
 Convection is incompresisble with the (Extended) Boussinesq approximation or compressible with TALA approximation.
 
 - PyCCon.ipynb: This is the main routine, please adapt the simulation parameters in the parameters cell below, assigning here the non-default parameter settings (default values will be overwritten)
+- convection.py: Main routine to calculate convection over time
 - solver.py: Solves the energy, mass, momentum and chemical conservation equations
 - supp_functions: Different initialization and support function, particle treatment, output measurements, and visualization (adapt as needed)
 - outgassing.py: Includes outgassing calculations to build an atmosphere
